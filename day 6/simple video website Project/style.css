@@ -1,0 +1,52 @@
+/* top logo */
+#Logo a{
+  text-decoration: none;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 2rem;       
+  font-weight: bold;    
+  padding: 12px 24px;  
+  display:inline-block;
+  border-radius: 8px;
+  }
+#Logo{
+  text-align: center;
+}
+
+/* header part of site */
+#title{
+  color:red;
+  background-color: black;
+  text-align: center;
+}
+
+/* Gallery layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 images in a row */
+  gap:5px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Image size control */
+.gallery img {
+  width: 100%;
+  height: 200px;              /* 👈 fixed height */
+  object-fit: cover;          /* 👈 crop to fit size without stretching */
+  border-radius:10px;         /* optional rounded corners */
+  transition: transform 0.2s;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
