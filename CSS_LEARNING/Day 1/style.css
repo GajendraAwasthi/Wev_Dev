@@ -1,0 +1,7 @@
+/* here another example of css which is called external css */
+p{
+        background-color: rgb(245, 7, 7);
+        color: rgb(233, 233, 233);  
+        font-style: italic; 
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
