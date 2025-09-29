@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 Css</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <style>
+/* there are Different selecter inside css  */
+/* #Element selecter */
+div{  /*for selecting all the divs in the code*/
+    background-color: brown;
+    color: bisque;
+}
+.blue{  /*for class selector*/
+    color: rgb(41, 5, 247);
+    background-color: rgba(255, 238, 0, 0.932);
+}
+/* Child selector */
+div > p{  /*it is used for case like i have p tag inside div i want to give style to p only then i use child selector*/
+    color: azure;
+    background-color: black;
+}
+/* ID Selector  */
+#id{ 
+    background-color: brown;
+}
+/* Descendant seclector  */
+span p{  /*for selecting p inside some things*/
+    background-color: aquamarine;
+    color:rgb(233, 9, 121) ;
+}
+/* universal selector */
+*{  /*for selecting all the code things*/
+    margin: 0%;
+    padding: 0%;
+}
+
+/* pseudo selector  */
+a:visited{  /*for highlight opened links*/
+    color: rgb(236, 70, 4);
+}
+a:link{
+    color: rgb(12, 255, 12);
+}
+a:active{  /*for seeing active tabs things*/
+    background-color: black;
+    color: aliceblue;
+}
+a:hover{
+background-color: blueviolet; /*for hover things*/
+
+/* }
+p:first-child{
+    background-color: aqua;
+} theese is not important */
+
+</style>
+</head>
+<body>
+    <div class="one">Welcome</div>
+    <div><h2>Hello everyone</h2></div>
+    <div class="blue"><h3>its day 2 of learning CSS</h3><p>If you Like my contents just</p><p id="bluem"> follow me 😊😁</p></div>
+    <span><p>Hello i am inside span box</p></span>
+   <a href="https://www.site.com">Go to Site.com</a>
+    <a href="https://www.sita.com">Go to Sita.com</a>
+</body>
+</html>
