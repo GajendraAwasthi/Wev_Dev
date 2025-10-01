@@ -1,0 +1,21 @@
+*{
+    /* this line is added because to remove all the extra padding that browser gives autometically to page ( in short reset padding  */
+    padding: opx;
+    margin: 0px;
+}
+
+.box{
+    margin: 0px;
+}
+.box1{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid rgb(255, 0, 0);
+}
+.box2{
+    background-color: rgb(240, 185, 5);
+    color: rgb(255, 255, 255);
+
+}
