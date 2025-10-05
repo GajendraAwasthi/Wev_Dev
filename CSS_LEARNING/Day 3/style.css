@@ -2,13 +2,22 @@
 
 h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 20px;
+    text-decoration: ;
+    text-decoration-color: brown;
+
 }
 p{
     font-style:italic;
     font-weight: 10;
-    text-decoration:underline;
+    /* text-decoration:underline; */
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: blueviolet;
 }
 span{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    text-transform: capitalize;
+
 }
